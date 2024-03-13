@@ -17,7 +17,7 @@ class Solution {
         
         if(root.left!= null && root.right != null)
         {
-            return (root.`val`!! == root.left.`val`!! + root.right.`val`!!)
+            return (root.`val` == root.left.`val` + root.right.`val`)
         }
         return false
         
