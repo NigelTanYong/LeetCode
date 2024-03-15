@@ -19,3 +19,13 @@ class Solution {
         }
     }
 }
+//two pointer approach
+/*
+1. create index on last items of both arrays
+2. have another another that is the max no. of output elements (m+n-1)
+3. iterate from the end to 0
+    4. check if the smaller array have item
+    5. check if it is not the 1st element of the longer array and compare values
+    6. if values of longer array is larger than shorter array, overwrite the longer array with current longer array value and iterate down the longer array
+    7. if values of longer array is equal or lesser than shorter array and there are still elements of longer array on the left, iterate dwon the shorter array
+*/
