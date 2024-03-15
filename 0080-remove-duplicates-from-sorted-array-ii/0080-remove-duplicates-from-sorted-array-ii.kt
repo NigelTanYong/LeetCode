@@ -16,3 +16,11 @@ class Solution {
         return k // k represents the number of unique elements
     }
 }
+
+/*
+1. check for empty array
+2. initialise a counter
+3. iterate through the array
+4. check if the current element not the same as value 2 position back
+5. overwrite array and increment count
+*/
