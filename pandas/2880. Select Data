@@ -1,0 +1,9 @@
+import pandas as pd
+
+def selectData(students: pd.DataFrame) -> pd.DataFrame:
+    condition_df = students[students['student_id']==101]
+    result_df = condition_df[['name', 'age']]
+    return result_df
+
+##or
+ # return students.loc[students["student_id"] == 101, ["name", "age"]]
